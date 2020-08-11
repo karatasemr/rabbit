@@ -6,21 +6,24 @@ h1 {
 }
 
 #title {
-    background-color: #46b3e6;
+    background-color: #fc8210;
     color: #fff;
     padding: 2% 8% 5%;
 }
 
 .navbar_logo {
-    width: 5%;
+    width: 10%;
     transform: scale(-1, 1);
     margin-right: 5px;
 }
 
-.title_content {
-    text-align: center;
-    padding-top: 4%;
+#catchword {
+    color: #007892;
 }
+
+/* .title_content {
+
+} */
 
 .title_image {
     width: 100%;
@@ -30,7 +33,7 @@ h1 {
 /* Navigation Bar */
 
 .navbar {
-    padding: 0 0 4.5rem;
+    padding: 0 0 4rem;
 }
 
 .navbar-brand {
@@ -44,7 +47,6 @@ h1 {
 
 .nav-link {
     font-size: 1.2rem;
-    font-family: "Montserrat";
 }
 
 /* Features */
@@ -65,19 +67,19 @@ h1 {
 }
 
 .features_icon{
-    color: #e36387;
+    color: #ff427f;
     margin-bottom: 1rem;
 }
 
 .features_icon:hover{
-    color: #f2aaaa;
+    color: #ffd8a6;
 }
 
 /* Testimonials */
 
 #testimonials{
     text-align: center;
-    background-color: #46b3e6;
+    background-color: #fc8210;
     color: #fff;
 }
 
@@ -99,13 +101,13 @@ h1 {
 }
 
 .social_icon{
+    font-size: 2rem;
     margin: 20px 10px;
-    color: #e36387;
-    
+    color: #ff427f;
 }
 
 .social_icon:hover{
-    color: #f2aaaa;
+    color: #ffd8a6;
     font-weight: bold;
 }
 

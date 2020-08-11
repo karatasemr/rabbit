@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rabbit Kindergarten</title>
+    <title>Вундеркинд</title>
     <link rel="icon" href="images/rabbit.png">
     
     <!-- Fontawesome -->
@@ -19,35 +19,30 @@
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
 
 </head>
 <body>
   <section id="title">
       <div class="container-fluid">
           <!-- Navbar -->
-          <nav class="navbar navbar-expand-lg navbar-dark">
-              <a class="navbar-brand" href=""><img class="navbar_logo" src="images/rabbit_2.png" alt="rabbit"> Rabbit Kindergarten</a>
+          <nav class="navbar navbar-expand-lg navbar-dark text-nowrap">
+              <a class="navbar-brand" href=""><img class="navbar_logo" src="images/rabbit_2.png" alt="rabbit"> Вундеркинд <br><span id="catchword">Подготовка к школе</span></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcontent" aria-controls="navbarcontent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarcontent">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                      <a class="nav-link" href="">Home</a>
+                      <a class="nav-link" href="index.html">Главная</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="">About</a>
+                      <a class="nav-link" href="about.html">О нас</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="">Learning</a>
+                      <a class="nav-link" href="">Программа обучения</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="">Enrol</a>
+                      <a class="nav-link" href="">Записаться</a>
                     </li>
                   </ul>
                 </div>
@@ -55,10 +50,10 @@
           <!-- Title -->
           <div class="row">
               <div class="col-lg-6 title_content">
-                  <h1>A new enjoyable world for your children</h1>
+                  <h1>Лучшее образование для вашего ребёнка</h1>
               </div>
               <div class="col-lg-6">
-                  <img class="title_image" src="images/3.jpg" alt="">
+                  <img class="title_image" src="images/main_photo.jpeg" alt="kindergarten main photo">
               </div>
           </div>
       </div>
@@ -70,18 +65,18 @@
     <div class="row">
       <div class="col-lg-4 features_div">
         <i class="fas fa-shield-alt fa-4x features_icon"></i>
-        <h3>Safe</h3>
-        <p class="features_p">A safe house for your children</p>
+        <h3>Безопасность</h3>
+        <p class="features_p">Безопасное место для учёбы</p>
       </div>
       <div class="col-lg-4 features_div">
         <i class="fas fa-book-open fa-4x features_icon"></i>
-        <h3>Best Education</h3>
-        <p class="features_p">We offer the best education in Bishkek</p>
+        <h3>Лучшее образование</h3>
+        <p class="features_p">Учитель с 10 летним стажем</p>
       </div>
       <div class="col-lg-4 features_div">
         <i class="fas fa-heart fa-4x features_icon"></i>
-        <h3>Lovely Environment</h3>
-        <p class="features_p">A garden full of love for your children</p>  
+        <h3>Любимое окружение</h3>
+        <p class="features_p">Ваши дети будут просится на учёбу</p>  
       </div>
     </div>
   </section>
@@ -92,14 +87,19 @@
     <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <h2>I no longer have to worry about my boy when I am at work. I've found the loveliest kindergarten ever.</h2>
-          <img class="testimonial-image" src="images/sample_1.jpg" alt="kyrgyz_children_kindergarten">
-          <em>Kant, Chuy Region</em>
+          <h2 class="testimonial-text">"Большое спасибо за труд, за терпение, за доброту и заботу. Я довольна своей дочерью, за короткое время научилась читать, писать, рисовать"</h2>
+          <img class="testimonial-image" src="images/sample_2.jpg" alt="kyrgyz_children_kindergarten">
+          <em>Сабина, город Кант</em>
         </div>
         <div class="carousel-item">
-          <h2 class="testimonial-text">My girl used to feel so lonely, but with the help of Rabbit Kindergarten, she has many new friends now.</h2>
+          <h2>"Дорогой наш педагог Айнагул Кабылбековна, спасибо вам за те знания которые вы умело и талантливо передаёте нашим детям. Ведь начальное образование это- основа всех знаний и дальнейшей учёбы наших детей. Я лично очень благодарна за то что мой ребенок уже красиво пишет и считает."</h2>
+          <img class="testimonial-image" src="images/sample_1.jpg" alt="kyrgyz_children_kindergarten">
+          <em>Жылдыз, город Кант</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">"Мой ребёнок научился играть в шахматы. Я очень рада так как эта игра развивает логику у ребёнка. Спасибо вам."</h2>
           <img class="testimonial-image" src="images/sample_2.jpg" alt="kyrgyz_children_kindergarten">
-          <em>Bishkek, Bishkek Region</em>
+          <em>Бермет, город Кант</em>
         </div>
       </div>
       <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
@@ -120,8 +120,13 @@
     <i class="social_icon fab fa-twitter" aria-hidden="true"></i>
     <i class="social_icon fab fa-instagram" aria-hidden="true"></i>
     <i class="social_icon fas fa-envelope" aria-hidden="true"></i>
-    <p class="social_p">© Copyright 2020 Rabbit Kindergarten</p>
+    <p class="social_p">© Copyright 2020 Вундеркинд</p>
   </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </body>
 </html>
